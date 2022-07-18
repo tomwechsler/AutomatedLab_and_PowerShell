@@ -2,6 +2,6 @@ AutomatedLab
 ------------
 https://automatedlab.org
 
-**Download**
+**Download**  
 https://github.com/AutomatedLab/AutomatedLab/releases
 
