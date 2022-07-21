@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="1" errors="0" failures="0" not-run="44" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-07-21" time="15:02:56">
+  <environment cwd="H:\GitHub\AutomatedLab_and_PowerShell" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition2" clr-version="Unknown" user-domain="HP001" nunit-version="2.5.8.0" machine-name="HP001" user="admin" os-version="10.0.19043" />
+  <culture-info current-culture="de-CH" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="4.9331" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\00General.tests.ps1" executed="True" result="Success" success="True" time="1.4757" asserts="0" description="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\00General.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="[MyFirstLab] General" executed="True" result="Success" success="True" time="0.5733" asserts="0" description="[MyFirstLab] General">
+            <results>
+              <test-suite type="TestFixture" name="[MyFirstLab] General.Lab deployment successful" executed="True" result="Success" success="True" time="0.5435" asserts="0" description="[MyFirstLab] General.Lab deployment successful">
+                <results>
+                  <test-suite type="ParameterizedTest" name="[MyFirstLab] General.Lab deployment successful.[&lt;LabName&gt;] Should return the correct amount of machines" executed="True" result="Success" success="True" time="0.4417" asserts="0" description="[&lt;LabName&gt;] Should return the correct amount of machines">
+                    <results>
+                      <test-case description="[MyFirstLab] Should return the correct amount of machines" name="[MyFirstLab] General.Lab deployment successful.[MyFirstLab] Should return the correct amount of machines" time="0.4417" asserts="0" success="True" result="Success" executed="True" />
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
