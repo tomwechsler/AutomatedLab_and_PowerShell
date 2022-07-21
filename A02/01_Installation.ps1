@@ -7,9 +7,8 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 #MSI-Download:
 https://automatedlab.org/en/latest/Wiki/Basic/install/
 
-#Install AL with PowerShell
-Install-PackageProvider Nuget -Force
-Install-Module -Name AutomatedLab -RequiredVersion 5.43.0 -AllowClobber -Force
+#Install AutomatedLab with PowerShell
+Install-Module -Name AutomatedLab -AllowClobber -Force
 
 #Set the LabSourcesFolder
 New-LabSourcesFolder -Drive C
