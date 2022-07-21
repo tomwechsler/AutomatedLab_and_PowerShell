@@ -11,4 +11,7 @@ https://automatedlab.org/en/latest/Wiki/Basic/install/
 Install-Module -Name AutomatedLab -AllowClobber -Force
 
 #Set the LabSourcesFolder
-New-LabSourcesFolder -Drive C
+New-LabSourcesFolder -Drive H:
+
+#Get the SourcesFolder
+Get-LabSourcesLocation
