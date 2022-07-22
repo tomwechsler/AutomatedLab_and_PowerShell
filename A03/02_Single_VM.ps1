@@ -5,7 +5,7 @@ Get-LabAvailableOperatingSystem -Path H:\LabSources
 New-LabDefinition -Name Win10 -DefaultVirtualizationEngine HyperV
 
 #Lab Machine Definition
-Add-LabMachineDefinition -Name Client1 -Memory 1GB -OperatingSystem 'Windows 10 Enterprise Evaluation'
+Add-LabMachineDefinition -Name Client1 -Memory 4GB -OperatingSystem 'Windows 10 Enterprise Evaluation'
 
 #Install Lab
 Install-Lab

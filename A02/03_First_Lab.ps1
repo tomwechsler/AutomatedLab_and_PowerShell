@@ -10,9 +10,6 @@ Add-LabMachineDefinition -Name Win10Demo -OperatingSystem 'Windows 10 Enterprise
 #Install Lab
 Install-Lab
 
-#Deployment Summary
-Show-LabDeploymentSummary
-
 #Notification
 Send-ALNotification -Activity 'Installing Software' -Message 'Software being installed..' -Provider Toast,Ifttt
 
