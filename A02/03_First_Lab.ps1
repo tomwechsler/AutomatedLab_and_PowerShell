@@ -1,13 +1,16 @@
 #Show available OS
 Get-LabAvailableOperatingSystem -Path H:\LabSources
 
-#Install Lab and VM
+#New Lab Definition
 New-LabDefinition -Name MyFirstLab -DefaultVirtualizationEngine HyperV
 Add-LabMachineDefinition -Name Win10Demo -OperatingSystem 'Windows 10 Enterprise Evaluation'
 
 ##We didn't specify a password, the default is: Somepass1
 
+#Install Lab
 Install-Lab
+
+#Deployment Summary
 Show-LabDeploymentSummary
 
 #Notification
