@@ -22,5 +22,8 @@ Copy-LabFileItem -Path 'H:\LabSources\ToCopy' -ComputerName Win10Demo -Destinati
 #Show Labs
 Get-Lab -List
 
+#Deployment Summary
+Show-LabDeploymentSummary -Detailed
+
 #Remove Lab
 Remove-Lab -Path C:\ProgramData\AutomatedLab\Labs\MyFirstLab
