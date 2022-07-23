@@ -42,7 +42,6 @@ $role = Get-LabMachineRoleDefinition -Role CaRoot @{
 #Lab Machine Definition
 Add-LabMachineDefinition -Name "CA01" -IpAddress 192.168.123.12 -Roles $role
 
-
 #Install Lab
 Install-Lab
 
