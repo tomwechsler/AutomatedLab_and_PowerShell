@@ -31,6 +31,18 @@ $PSDefaultParameterValues = @{
 #Lab Machine Definition
 Add-LabMachineDefinition -Name "DC01" -IpAddress 192.168.123.1 -DomainName $domain -Roles RootDC
 
+#CA Role Definition
+$role = Get-LabMachineRoleDefinition -Role CaRoot @{
+    CACommonName = "MyLabRootCA1"
+    KeyLength = "2048"
+    ValidityPeriod = "Weeks"
+    ValidityPeriodUnits = "4"
+}
+
+#Lab Machine Definition
+Add-LabMachineDefinition -Name "CA01" -IpAddress 192.168.123.12 -Roles $role
+
+
 #Install Lab
 Install-Lab
 
