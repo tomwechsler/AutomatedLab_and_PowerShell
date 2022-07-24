@@ -1,6 +1,6 @@
 ﻿#Credentials
 [string]$Username = "Administrator"
-[string]$Password = "Password1"
+[string]$Password = "P@ssw0rd"
 [securestring]$secPass = ConvertTo-SecureString $Password -AsPlainText -Force
 $Cred = New-Object System.Management.Automation.PSCredential($Username,$secPass)
 
