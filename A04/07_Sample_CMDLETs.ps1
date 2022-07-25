@@ -38,7 +38,8 @@ Get-LabVMUptime -ComputerName DC01
 
 #Install Windows Feature
 #https://automatedlab.org/en/latest/AutomatedLab/en-us/Get-LabWindowsFeature/
-Get-LabWindowsFeature CL01 -FeatureName RSAT-AD-Tools
+Install-LabWindowsFeature -ComputerName WS01 -FeatureName RSAT -IncludeAllSubFeature
+Get-LabWindowsFeature WS01 -FeatureName RSAT
 
 #Start VM
 #https://automatedlab.org/en/latest/AutomatedLab/en-us/Start-LabVM/
