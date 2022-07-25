@@ -24,8 +24,8 @@ Remove-LabVM -Name WS01
 #Snapshot
 #https://automatedlab.org/en/latest/AutomatedLab/en-us/Get-LabVMSnapshot/
 Get-LabVMSnapshot -ComputerName CL01
-Checkpoint-LabVM -ComputerName CL01 -SnapshotName "CL01 - (07/25/2021"
-Restore-LabVMSnapshot -ComputerName CL01 -SnapshotName "CL01 - (07/25/2021"
+Checkpoint-LabVM -ComputerName CL01 -SnapshotName "CL01 - (07/25/2021)"
+Restore-LabVMSnapshot -ComputerName CL01 -SnapshotName "CL01 - (07/25/2021)"
 Remove-LabVMSnapshot -ComputerName CL01
 
 #Get RDP Files
