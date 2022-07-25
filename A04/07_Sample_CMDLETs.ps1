@@ -30,7 +30,7 @@ Remove-LabVMSnapshot -ComputerName CL01
 
 #Get RDP Files
 #https://automatedlab.org/en/latest/AutomatedLab/en-us/Get-LabVMRdpFile/
-Get-LabVMRdpFile -UseLocalCredential -All -Path "./"
+Get-LabVMRdpFile -UseLocalCredential -All -Path $labSources
 
 #Get UpTime
 #https://automatedlab.org/en/latest/AutomatedLab/en-us/Get-LabVMUptime/
