@@ -48,3 +48,7 @@ Start-LabVM DC01
 #Stop VM
 #https://automatedlab.org/en/latest/AutomatedLab/en-us/Stop-LabVM/
 Stop-LabVM DC01
+
+#Invoke-LabCommand
+#https://automatedlab.org/en/latest/Wiki/Basic/invokelabcommand/
+Invoke-LabCommand -ScriptBlock { Get-Date } -ComputerName (Get-LabVM) -PassThru
