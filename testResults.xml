@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="10" errors="0" failures="0" not-run="41" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-07-23" time="18:23:24">
-  <environment cwd="H:\GitHub\AutomatedLab_and_PowerShell" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition2" clr-version="Unknown" user-domain="HP001" nunit-version="2.5.8.0" machine-name="HP001" user="admin" os-version="10.0.19043" />
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="5" errors="0" failures="0" not-run="45" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-09-20" time="16:29:37">
+  <environment clr-version="4.0.30319.42000" user-domain="ELITE8100" cwd="C:\GitHub\AutomatedLab_and_PowerShell" platform="Microsoft Windows 10 Pro|C:\WINDOWS|\Device\Harddisk0\Partition2" machine-name="ELITE8100" nunit-version="2.5.8.0" os-version="10.0.19044" user="admin" />
   <culture-info current-culture="de-CH" current-uiculture="en-US" />
-  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="33.7557" asserts="0" description="Pester">
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="9.4246" asserts="0" description="Pester">
     <results>
-      <test-suite type="TestFixture" name="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\00General.tests.ps1" executed="True" result="Success" success="True" time="0.4831" asserts="0" description="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\00General.tests.ps1">
+      <test-suite type="TestFixture" name="C:\Program Files\WindowsPowerShell\Modules\AutomatedLabTest\5.44.0\internal\tests\00General.tests.ps1" executed="True" result="Success" success="True" time="0.6939" asserts="0" description="C:\Program Files\WindowsPowerShell\Modules\AutomatedLabTest\5.44.0\internal\tests\00General.tests.ps1">
         <results>
-          <test-suite type="TestFixture" name="[TechLab] General" executed="True" result="Success" success="True" time="0.282" asserts="0" description="[TechLab] General">
+          <test-suite type="TestFixture" name="[TechLab] General" executed="True" result="Success" success="True" time="0.4064" asserts="0" description="[TechLab] General">
             <results>
-              <test-suite type="TestFixture" name="[TechLab] General.Lab deployment successful" executed="True" result="Success" success="True" time="0.2772" asserts="0" description="[TechLab] General.Lab deployment successful">
+              <test-suite type="TestFixture" name="[TechLab] General.Lab deployment successful" executed="True" result="Success" success="True" time="0.3938" asserts="0" description="[TechLab] General.Lab deployment successful">
                 <results>
-                  <test-suite type="ParameterizedTest" name="[TechLab] General.Lab deployment successful.[&lt;LabName&gt;] Should return the correct amount of machines" executed="True" result="Success" success="True" time="0.268" asserts="0" description="[&lt;LabName&gt;] Should return the correct amount of machines">
+                  <test-suite type="ParameterizedTest" name="[TechLab] General.Lab deployment successful.[&lt;LabName&gt;] Should return the correct amount of machines" executed="True" result="Success" success="True" time="0.3786" asserts="0" description="[&lt;LabName&gt;] Should return the correct amount of machines">
                     <results>
-                      <test-case description="[TechLab] Should return the correct amount of machines" name="[TechLab] General.Lab deployment successful.[TechLab] Should return the correct amount of machines" time="0.268" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="[TechLab] Should return the correct amount of machines" name="[TechLab] General.Lab deployment successful.[TechLab] Should return the correct amount of machines" time="0.3786" asserts="0" success="True" result="Success" executed="True" />
                     </results>
                   </test-suite>
                 </results>
@@ -21,73 +21,32 @@
           </test-suite>
         </results>
       </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\CaRoot.tests.ps1" executed="True" result="Success" success="True" time="2.8957" asserts="0" description="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\CaRoot.tests.ps1">
+      <test-suite type="TestFixture" name="C:\Program Files\WindowsPowerShell\Modules\AutomatedLabTest\5.44.0\internal\tests\RootDC.tests.ps1" executed="True" result="Success" success="True" time="6.9123" asserts="0" description="C:\Program Files\WindowsPowerShell\Modules\AutomatedLabTest\5.44.0\internal\tests\RootDC.tests.ps1">
         <results>
-          <test-suite type="TestFixture" name="[TechLab] CaRoot" executed="True" result="Success" success="True" time="2.7686" asserts="0" description="[TechLab] CaRoot">
+          <test-suite type="TestFixture" name="[TechLab] DC Generic" executed="True" result="Success" success="True" time="5.0559" asserts="0" description="[TechLab] DC Generic">
             <results>
-              <test-suite type="TestFixture" name="[TechLab] CaRoot.Role deployment successful" executed="True" result="Success" success="True" time="2.7637" asserts="0" description="[TechLab] CaRoot.Role deployment successful">
+              <test-suite type="TestFixture" name="[TechLab] DC Generic.Role deployment successful" executed="True" result="Success" success="True" time="5.0441" asserts="0" description="[TechLab] DC Generic.Role deployment successful">
                 <results>
-                  <test-case description="[CaRoot] Should return the correct amount of machines" name="[TechLab] CaRoot.Role deployment successful.[CaRoot] Should return the correct amount of machines" time="0.0608" asserts="0" success="True" result="Success" executed="True" />
-                  <test-suite type="ParameterizedTest" name="[TechLab] CaRoot.Role deployment successful.[CA01] Should be discoverable" executed="True" result="Success" success="True" time="1.9901" asserts="0" description="[CA01] Should be discoverable">
+                  <test-case description="[RootDC] Should return the correct amount of machines" name="[TechLab] DC Generic.Role deployment successful.[RootDC] Should return the correct amount of machines" time="0.0467" asserts="0" success="True" result="Success" executed="True" />
+                  <test-suite type="ParameterizedTest" name="[TechLab] DC Generic.Role deployment successful.DC01 should have ADWS running" executed="True" result="Success" success="True" time="1.0199" asserts="0" description="DC01 should have ADWS running">
                     <results>
-                      <test-case description="[CA01] Should be discoverable" name="[TechLab] CaRoot.Role deployment successful.[CA01] Should be discoverable(CA01)" time="1.9901" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="DC01 should have ADWS running" name="[TechLab] DC Generic.Role deployment successful.DC01 should have ADWS running(DC01)" time="1.0199" asserts="0" success="True" result="Success" executed="True" />
                     </results>
                   </test-suite>
-                  <test-suite type="ParameterizedTest" name="[TechLab] CaRoot.Role deployment successful.[CA01] should have CertSvc running" executed="True" result="Success" success="True" time="0.7075" asserts="0" description="[CA01] should have CertSvc running">
+                  <test-suite type="ParameterizedTest" name="[TechLab] DC Generic.Role deployment successful.DC01 should respond to ADWS calls" executed="True" result="Success" success="True" time="3.9416" asserts="0" description="DC01 should respond to ADWS calls">
                     <results>
-                      <test-case description="[CA01] should have CertSvc running" name="[TechLab] CaRoot.Role deployment successful.[CA01] should have CertSvc running(CA01)" time="0.7075" asserts="0" success="True" result="Success" executed="True" />
+                      <test-case description="DC01 should respond to ADWS calls" name="[TechLab] DC Generic.Role deployment successful.DC01 should respond to ADWS calls(DC01)" time="3.9416" asserts="0" success="True" result="Success" executed="True" />
                     </results>
                   </test-suite>
                 </results>
               </test-suite>
             </results>
           </test-suite>
-        </results>
-      </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\RootDC.tests.ps1" executed="True" result="Success" success="True" time="6.1522" asserts="0" description="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\RootDC.tests.ps1">
-        <results>
-          <test-suite type="TestFixture" name="[TechLab] DC Generic" executed="True" result="Success" success="True" time="4.6575" asserts="0" description="[TechLab] DC Generic">
+          <test-suite type="TestFixture" name="[TechLab] RootDC specific" executed="True" result="Success" success="True" time="6.6572" asserts="0" description="[TechLab] RootDC specific">
             <results>
-              <test-suite type="TestFixture" name="[TechLab] DC Generic.Role deployment successful" executed="True" result="Success" success="True" time="4.6528" asserts="0" description="[TechLab] DC Generic.Role deployment successful">
+              <test-suite type="ParameterizedTest" name="[TechLab] RootDC specific.DC01 should hold PDC emulator FSMO role" executed="True" result="Success" success="True" time="1.581" asserts="0" description="DC01 should hold PDC emulator FSMO role">
                 <results>
-                  <test-case description="[RootDC] Should return the correct amount of machines" name="[TechLab] DC Generic.Role deployment successful.[RootDC] Should return the correct amount of machines" time="0.0654" asserts="0" success="True" result="Success" executed="True" />
-                  <test-suite type="ParameterizedTest" name="[TechLab] DC Generic.Role deployment successful.DC01 should have ADWS running" executed="True" result="Success" success="True" time="0.7639" asserts="0" description="DC01 should have ADWS running">
-                    <results>
-                      <test-case description="DC01 should have ADWS running" name="[TechLab] DC Generic.Role deployment successful.DC01 should have ADWS running(DC01)" time="0.7639" asserts="0" success="True" result="Success" executed="True" />
-                    </results>
-                  </test-suite>
-                  <test-suite type="ParameterizedTest" name="[TechLab] DC Generic.Role deployment successful.DC01 should respond to ADWS calls" executed="True" result="Success" success="True" time="3.8182" asserts="0" description="DC01 should respond to ADWS calls">
-                    <results>
-                      <test-case description="DC01 should respond to ADWS calls" name="[TechLab] DC Generic.Role deployment successful.DC01 should respond to ADWS calls(DC01)" time="3.8182" asserts="0" success="True" result="Success" executed="True" />
-                    </results>
-                  </test-suite>
-                </results>
-              </test-suite>
-            </results>
-          </test-suite>
-          <test-suite type="TestFixture" name="[TechLab] RootDC specific" executed="True" result="Success" success="True" time="5.9017" asserts="0" description="[TechLab] RootDC specific">
-            <results>
-              <test-suite type="ParameterizedTest" name="[TechLab] RootDC specific.DC01 should hold PDC emulator FSMO role" executed="True" result="Success" success="True" time="1.2392" asserts="0" description="DC01 should hold PDC emulator FSMO role">
-                <results>
-                  <test-case description="DC01 should hold PDC emulator FSMO role" name="[TechLab] RootDC specific.DC01 should hold PDC emulator FSMO role(DC01)" time="1.2392" asserts="0" success="True" result="Success" executed="True" />
-                </results>
-              </test-suite>
-            </results>
-          </test-suite>
-        </results>
-      </test-suite>
-      <test-suite type="TestFixture" name="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\WebServer.tests.ps1" executed="True" result="Success" success="True" time="21.1807" asserts="0" description="C:\Users\admin\Documents\PowerShell\Modules\AutomatedLabTest\5.43.0\internal\tests\WebServer.tests.ps1">
-        <results>
-          <test-suite type="TestFixture" name="[TechLab] WebServer" executed="True" result="Success" success="True" time="21.038" asserts="0" description="[TechLab] WebServer">
-            <results>
-              <test-suite type="TestFixture" name="[TechLab] WebServer.Role deployment successful" executed="True" result="Success" success="True" time="21.0263" asserts="0" description="[TechLab] WebServer.Role deployment successful">
-                <results>
-                  <test-case description="[WebServer] Should return the correct amount of machines" name="[TechLab] WebServer.Role deployment successful.[WebServer] Should return the correct amount of machines" time="0.0598" asserts="0" success="True" result="Success" executed="True" />
-                  <test-suite type="ParameterizedTest" name="[TechLab] WebServer.Role deployment successful.[WS01] should have all required WebServer features installed" executed="True" result="Success" success="True" time="20.9612" asserts="0" description="[WS01] should have all required WebServer features installed">
-                    <results>
-                      <test-case description="[WS01] should have all required WebServer features installed" name="[TechLab] WebServer.Role deployment successful.[WS01] should have all required WebServer features installed(WS01,&quot;Web-Server&quot;,Web-WebServer Web-Application-Proxy Web-Health Web-Performance Web-Security Web-App-Dev Web-Ftp-Server Web-Metabase Web-Lgcy-Scripting Web-WMI Web-Scripting-Tools Web-Mgmt-Service Web-WHC)" time="20.9612" asserts="0" success="True" result="Success" executed="True" />
-                    </results>
-                  </test-suite>
+                  <test-case description="DC01 should hold PDC emulator FSMO role" name="[TechLab] RootDC specific.DC01 should hold PDC emulator FSMO role(DC01)" time="1.581" asserts="0" success="True" result="Success" executed="True" />
                 </results>
               </test-suite>
             </results>
