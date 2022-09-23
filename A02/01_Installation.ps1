@@ -8,7 +8,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 https://automatedlab.org/en/latest/Wiki/Basic/install/
 
 #Install AutomatedLab with PowerShell
-Install-Module -Name AutomatedLab -AllowClobber -Force
+Install-Module -Name AutomatedLab -AllowClobber -Force -Verbose
 
 #Set the LabSourcesFolder
 New-LabSourcesFolder -Drive H:
