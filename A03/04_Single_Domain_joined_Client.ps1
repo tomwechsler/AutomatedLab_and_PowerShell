@@ -1,5 +1,5 @@
 #Show available OS
-Get-LabAvailableOperatingSystem -Path H:\LabSources
+Get-LabAvailableOperatingSystem -Path G:\LabSources
 
 #New Lab Definition
 New-LabDefinition -Name Lab1 -DefaultVirtualizationEngine HyperV
